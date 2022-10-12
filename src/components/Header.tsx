@@ -4,8 +4,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex items-center w-full h-16 p-4 bg-slate-700  shadow-md">
-      <div className="flex items-center justify-between  max-w-6xl">
+    <header className="flex items-center w-full h-16 p-4 bg-independence rounded-b-b shadow-xl">
+      <div className="flex flex-row items-center justify-around max-w-6xl">
         <picture>
           <img
             className="w-15"
@@ -14,11 +14,10 @@ const Header = () => {
           />
         </picture>
         
-
-        <ul className="flex items-center gap-4 text-white font-medium ">
+        <ul className="flex items-center gap-4 text-light-steel-blue font-medium ">
           <li>
             <Link href="/">
-              <a className="hover:text-black hover:underline  focus:bg-black focus:underline transition-all">
+              <a className=" hover:scale-105 hover:text-platinum transition-all">
                
                 Historia
               </a>
@@ -26,7 +25,7 @@ const Header = () => {
           </li>
           <li>
             <Link href="/brasil">
-              <a className="hover:text-black hover:underline  focus:bg-black focus:underline transition-all">
+              <a className="hover:text-platinum transition-all">
               
                 Brasil
               </a>
@@ -34,7 +33,7 @@ const Header = () => {
           </li>
           <li>
             <Link href="/campeos">
-              <a className="hover:text-black hover:underline  focus:bg-black focus:underline transition-all">
+              <a className="hover:text-platinum transition-all">
                
                 Campeões
               </a>
@@ -42,15 +41,15 @@ const Header = () => {
           </li>
           <li>
             <Link href="/jogosmarcantes">
-              <a className="hover:text-black hover:underline  focus:bg-black focus:underline transition-all">
+              <a className="hover:text-platinum transition-all">
               
-                JogosMarcantes
+                Jogos Marcantes
               </a>
             </Link>
           </li>
           <li>
             <Link href="/bolao">
-              <a className="hover:text-black hover:underline  focus:bg-black focus:underline transition-all">
+              <a className="hover:text-platinum transition-all">
                
                 Bolão
               </a>
@@ -58,6 +57,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
+      
     </header>
   );
 };
