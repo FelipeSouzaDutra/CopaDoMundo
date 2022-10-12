@@ -9,7 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^5.2.2",
+=======
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+>>>>>>> 1f9daeb09956b0d705dfec4b429b9e711494126c
     "next": "12.3.1",
     "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
