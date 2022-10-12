@@ -145,7 +145,7 @@ const Home: NextPage = () => {
             <Carousel.Item interval={500}>
               <picture className="flex items-center justify-center ">
                 <img
-                  className="d-block w-10 h-10"
+                  className="d-block "
                   src="/img/mundial_1930.jpg"
                   alt="Imagem da copa1930"
                 />
@@ -160,7 +160,7 @@ const Home: NextPage = () => {
             <Carousel.Item interval={500}>
               <picture className="flex items-center justify-center ">
                 <img
-                  className="d-block w-10 h-10"
+                  className="d-block"
                   src="/img/mundial_1930.jpg"
                   alt="bola utilizada na copa de 1930"
                 />
