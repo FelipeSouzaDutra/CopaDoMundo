@@ -171,7 +171,7 @@ import React from 'react'
 
         <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-        <picture className=''>
+        <picture>
           <img src="/img/pele.jpeg" alt="Foto do Pelé jovem durante uma das copas que ele jogou" />
         </picture>
       <div className='flex flex-col text-justify items-center justify-center'>
@@ -186,7 +186,7 @@ import React from 'react'
         
         <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-        <picture className=''>
+        <picture>
           <img src="/img/ronaldo.jpeg" alt="Ronaldo fenômeno vibrando com os braços abertos" />
         </picture>
       <div className='flex flex-col text-justify items-center justify-center'>
