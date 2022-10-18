@@ -120,42 +120,43 @@ import React from 'react'
 
     
     
-  
-    <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
-      <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-        <picture className=''>
-          <img src="/img/brasil-uruguai.jpg" alt="Jogador do time do uruguai fazendo um gol contra a seleção brasileira na copa de 1950" />
-        </picture>
-      <div className='flex flex-col text-justify items-center justify-center'>
-        <h2 className="">URUGUAI 2 X 1 BRASIL</h2>
-        <p> Perca histórica contra o Uruguai na final da copa realizada no Brasil.</p>
+    <div className="flex flex-col lg:grid lg:grid-cols-3 items-center justify-center mx-1 gap-4">
+      <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
+        <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
+          <picture className=''>
+            <img src="/img/brasil-uruguai.jpg" alt="Jogador do time do uruguai fazendo um gol contra a seleção brasileira na copa de 1950" />
+          </picture>
+        <div className='flex flex-col text-justify items-center justify-center'>
+          <h2 className="">URUGUAI 2 X 1 BRASIL</h2>
+          <p> Perca histórica contra o Uruguai na final da copa realizada no Brasil.</p>
+        </div>
+        </div>
+        </div>
+      <div className='p-2'></div>
+      <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
+        <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
+          <picture className=''>
+            <img src="/img/brasil-franca.jpg" alt="Jogador francês com posse de bola durante o jogo contra o Brasil no final da copa de 1998" />
+          </picture>
+        <div className='flex flex-col text-justify items-center justify-center'>
+          <h2 className="">FRANÇA 3 X 0 BRASIL</h2>
+          <p> Apesar da seleção da época ser considerada uma das melhores, após o tetracampeonato nos Estados Unidos o Brasil leva uma goleada da França.</p>
+        </div>
+        </div>
       </div>
+      <div className='p-2'></div>
+      <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
+        <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
+          <picture className=''>
+            <img src="/img/brasil-alemanha.jpg" alt="Jogador do Brasil limpando as lágrimas com a camiseta e o placar do jogo, Alemanha 7 x 1 Brasil" />
+          </picture>
+        <div className='flex flex-col text-justify items-center justify-center'>
+          <h2 className="">ALEMANHA 7 X 1 BRASIL</h2>
+          <p>A perca mais histórica de toda história do Brasil na copa, onde levou uma goleada nas semi-finais durante o torneio no seu próprio país.</p>
+        </div>
+        </div>
+      
       </div>
-      </div>
-    <div className='p-2'></div>
-    <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
-      <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-        <picture className=''>
-          <img src="/img/brasil-franca.jpg" alt="Jogador francês com posse de bola durante o jogo contra o Brasil no final da copa de 1998" />
-        </picture>
-      <div className='flex flex-col text-justify items-center justify-center'>
-        <h2 className="">FRANÇA 3 X 0 BRASIL</h2>
-        <p> Apesar da seleção da época ser considerada uma das melhores, após o tetracampeonato nos Estados Unidos o Brasil leva uma goleada da França.</p>
-      </div>
-      </div>
-    </div>
-    <div className='p-2'></div>
-    <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
-      <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-        <picture className=''>
-          <img src="/img/brasil-alemanha.jpg" alt="Jogador do Brasil limpando as lágrimas com a camiseta e o placar do jogo, Alemanha 7 x 1 Brasil" />
-        </picture>
-      <div className='flex flex-col text-justify items-center justify-center'>
-        <h2 className="">ALEMANHA 7 X 1 BRASIL</h2>
-        <p>A perca mais histórica de toda história do Brasil na copa, onde levou uma goleada nas semi-finais durante o torneio no seu próprio país.</p>
-      </div>
-      </div>
-    
     </div>
  
 
@@ -165,36 +166,38 @@ import React from 'react'
       </h1>
     </div>
 
-    <div className='flex flex-col items-center justify-center'>
-    <div className='p-2'></div>
-  <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
-    <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-      <picture className=''>
-        <img src="/img/pele.jpeg" alt="Foto do Pelé jovem durante uma das copas que ele jogou" />
-      </picture>
-    <div className='flex flex-col text-justify items-center justify-center'>
-      <h2 className="">Edson Arantes do Nascimento</h2>
-      <p> Carinhosamente apelidado de Pelé, é considerado um dos melhores atletas de todos os tempos.</p>
-    </div>
-    </div>
-    </div>
+    
+    <div className="flex flex-col lg:grid lg:grid-cols-2 items-center justify-center mx-1 gap-4 p-4">
 
-  </div>
-
-  <div className='p-2'></div>
-  <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
-    <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
-      <picture className=''>
-        <img src="/img/ronaldo.jpeg" alt="Ronaldo fenômeno vibrando com os braços abertos" />
-      </picture>
-    <div className='flex flex-col text-justify items-center justify-center'>
-      <h2 className="">Ronaldo Luís Nazário de Lima</h2>
-      <p> Foi considerado pela FIFA o melhor jogador do mundo em 3 anos diferentes, e foi um dos maiores pontuadores que a seleção possuiu.</p>
+        <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
+      <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
+        <picture className=''>
+          <img src="/img/pele.jpeg" alt="Foto do Pelé jovem durante uma das copas que ele jogou" />
+        </picture>
+      <div className='flex flex-col text-justify items-center justify-center'>
+        <h2 className="">Edson Arantes do Nascimento</h2>
+        <p> Carinhosamente apelidado de Pelé, é considerado um dos melhores atletas de todos os tempos.</p>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+        
+        <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
+      <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
+        <picture className=''>
+          <img src="/img/ronaldo.jpeg" alt="Ronaldo fenômeno vibrando com os braços abertos" />
+        </picture>
+      <div className='flex flex-col text-justify items-center justify-center'>
+        <h2 className="">Ronaldo Luís Nazário de Lima</h2>
+        <p> Foi considerado pela FIFA o melhor jogador do mundo em 3 anos diferentes, e foi um dos maiores pontuadores que a seleção possuiu.</p>
+      </div>
+      </div>
+      
+        </div>
+        
     </div>
-    </div>
-
-  </div>
-  <div className="p-2"></div>
     </section>
     
   );
