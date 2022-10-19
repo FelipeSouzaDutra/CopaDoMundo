@@ -1,9 +1,17 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
-import Carousel from "react-bootstrap/Carousel";
 
  const campeos = () => {
   return (
+
+    <section>
+
+    <div className='flex items-center justify-center p-3 font-bold text-2xl'>
+      <h1>
+        CONHEÇA OS CAMPEÕES DA COPA!
+      </h1>
+    </div>
+
     <div className='flex flex-col lg:grid lg:grid-cols-2 items-center justify-center mx-1 gap-4 p-3'>
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
@@ -115,6 +123,8 @@ import Carousel from "react-bootstrap/Carousel";
     </div>
   
     </div>
+    </section>
+    
   )
 };
 

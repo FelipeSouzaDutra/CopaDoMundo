@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 const Home: NextPage = () => {
   return (
     <>
-      <main>
+      <section>
         <div>
           <h1>Primeira copa do mundo </h1>
           <p>
@@ -206,7 +206,7 @@ const Home: NextPage = () => {
             quantidade de nações que participavam do evento.
           </p>
         </div>
-      </main>
+      </section>
     </>
   );
 };
