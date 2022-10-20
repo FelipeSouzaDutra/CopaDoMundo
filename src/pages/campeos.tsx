@@ -6,12 +6,14 @@ import "bootstrap/dist/css/bootstrap.css";
 
     <section>
 
+    {/* TÍTULO DA PÁGINA */}
     <div className='flex items-center justify-center p-3 font-bold text-2xl'>
       <h1>
         CONHEÇA OS CAMPEÕES DA COPA!
       </h1>
     </div>
 
+    {/* DIV PARA ORGANIZAR OS CARDS NA PÁGINA, COM RESPONSIVO */}
     <div className='flex flex-col lg:grid lg:grid-cols-2 items-center justify-center mx-1 gap-4 p-3'>
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
@@ -26,7 +28,7 @@ import "bootstrap/dist/css/bootstrap.css";
   
     </div>
   
-  
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -37,9 +39,9 @@ import "bootstrap/dist/css/bootstrap.css";
         <p>Ganhador das copas de 1954, 1974, 1990 e 2014</p>
       </div>
       </div>
-  
     </div>
-  
+
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -50,9 +52,9 @@ import "bootstrap/dist/css/bootstrap.css";
         <p>Ganhador das copas de 1934, 1938, 1982 e 2006</p>
       </div>
       </div>
-  
     </div>
   
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -63,9 +65,9 @@ import "bootstrap/dist/css/bootstrap.css";
         <p> Ganhador das copas de 1978 e 1986. </p>
       </div>
       </div>
-  
     </div>
   
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -77,9 +79,9 @@ import "bootstrap/dist/css/bootstrap.css";
         </p>
       </div>
       </div>
-  
     </div>
 
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -91,9 +93,9 @@ import "bootstrap/dist/css/bootstrap.css";
         </p>
       </div>
       </div>
-  
     </div>
-
+    
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -105,9 +107,9 @@ import "bootstrap/dist/css/bootstrap.css";
         </p>
       </div>
       </div>
-  
     </div>
 
+    {/* DIV PARA O CARD */}
     <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -119,9 +121,7 @@ import "bootstrap/dist/css/bootstrap.css";
         </p>
       </div>
       </div>
-  
     </div>
-  
     </div>
     </section>
     

@@ -5,11 +5,11 @@ import React from "react";
 const Header = () => {
   return (
     <header className="flex items-center h-20 bg-independence justify-center rounded-b-b shadow-xl">
-      <div className="flex items-center justify-between w-full max-w-6xl">
-        <picture>
+      <div className="flex items-center lg:justify-between justify-center w-full max-w-6xl">
+        <picture className="lg:h-10 lg:w-32">
           <img
-            className="w-15"
-            src="/img/icone.png"
+            className=""
+            src="/img/fifa-world-cup-logo.png"
             alt="taça da copa do mundo"
           />
         </picture>

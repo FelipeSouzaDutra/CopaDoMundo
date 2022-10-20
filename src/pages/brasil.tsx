@@ -4,7 +4,8 @@ import React from 'react'
  const brasil = () => {
   return (
     <section>
-      
+
+     {/* TÍTULO DA PÁGINA */}
     <div className="flex flex-row items-center justify-center text-lincoln-green font-bold text-4xl">
       
     <div className="flex-col items-center justify-center">
@@ -18,12 +19,19 @@ import React from 'react'
     </div>
     </div>
     </div>
+
+    {/* TÍTULO DA SEÇÃO DOS JOGOS QUE GARNATIRAM OS TÍTULOS */}
     <div className='flex items-center justify-center p-3 font-bold text-2xl'>
       <h1>
         JOGOS QUE GARANTIRAM OS TÍTULOS
       </h1>
     </div>
+
+    {/* DIV PARA ORGANIZAR OS CARDS NA PÁGINA, COM RESPONSIVO */}
     <div className='flex flex-col lg:grid lg:grid-cols-2 items-center justify-center mx-1 gap-4'>
+
+    {/* DIV PARA O CARD */}
+
   <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
     <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
       <picture className=''>
@@ -42,7 +50,7 @@ import React from 'react'
 
   </div>
 
-
+  {/* DIV PARA O CARD */}
   <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
     <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
       <picture className=''>
@@ -59,6 +67,7 @@ import React from 'react'
 
   </div>
 
+  {/* DIV PARA O CARD */}
   <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
     <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
       <picture className=''>
@@ -74,8 +83,9 @@ import React from 'react'
         Garantiu o título com uma vitória histórica em cima da Itália.</p>
     </div>
     </div>
-
   </div>
+
+  {/* DIV PARA O CARD */}
 
   <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
     <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
@@ -90,9 +100,9 @@ import React from 'react'
         Um jogo histórico sem dúvidas, e finalmente onde a quarta vitória do Brasil na copa veio em solo estado-unidense no ano de 1994. </p>
     </div>
     </div>
-
   </div>
 
+  {/* DIV PARA O CARD */}
   <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
     <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
       <picture className=''>
@@ -107,20 +117,20 @@ import React from 'react'
       </p>
     </div>
     </div>
-
+  </div>
   </div>
 
-  </div>
-
+  {/* TÍTULO DA SEÇÃO DOS JOGOS QUE MARCARAM */}
   <div className='flex items-center justify-center p-11 font-bold text-2xl'>
       <h1>
         JOGOS QUE MARCARAM
       </h1>
     </div>
 
-    
-    
+    {/* DIV PARA ORGANIZAR OS CARDS NA PÁGINA, COM RESPONSIVO */}
     <div className="flex flex-col lg:grid lg:grid-cols-3 items-center justify-center mx-1 gap-4">
+
+    {/* DIV PARA O CARD */}
       <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
         <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
           <picture className=''>
@@ -133,6 +143,7 @@ import React from 'react'
         </div>
         </div>
       <div className='p-2'></div>
+      {/* DIV PARA O CARD */}
       <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
         <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
           <picture className=''>
@@ -145,6 +156,7 @@ import React from 'react'
         </div>
       </div>
       <div className='p-2'></div>
+      {/* DIV PARA O CARD */}
       <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
         <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
           <picture className=''>
@@ -160,15 +172,17 @@ import React from 'react'
     </div>
  
 
+    {/* TÍTULO DA SEÇÃO DOS JOGADORES IMPORTANTES DA SELEÇÃO */}
   <div className='flex items-center justify-center p-11 font-bold text-2xl'>
       <h1>
         OS MAIORES JOGADORES QUE A SELEÇÃO JÁ TEVE
       </h1>
     </div>
 
-    
+    {/* DIV PARA ORGANIZAR OS CARDS NA PÁGINA, COM RESPONSIVO */}
     <div className="flex flex-col lg:grid lg:grid-cols-2 items-center justify-center mx-1 gap-4 p-4">
 
+    {/* DIV PARA O CARD */}
         <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
@@ -183,7 +197,7 @@ import React from 'react'
       
       
       
-        
+      {/* DIV PARA O CARD */}
         <div className="p-3 bg-lincoln-green max-w-xl rounded-2xl flex flex-col items-center justify-center m-auto">
       <div className="flex flex-col items-center p-4 bg-light-yellow rounded-2xl gap-y-4">
         <picture className=''>
