@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="flex items-center h-20 bg-independence justify-center rounded-b-b shadow-xl">
       <div className="flex items-center lg:justify-between justify-center w-full max-w-6xl">
-        <picture className="lg:h-10 lg:w-32">
+        <picture className="h-10 lg:w-32">
           <img
             className=""
             src="/img/fifa-world-cup-logo.png"
